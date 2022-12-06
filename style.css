@@ -235,7 +235,8 @@ body{
     outline: none;
     font-size: 14px;
 }
-.comment-btn{
+.comment-btn,
+.action-btn{
     width: 70px;
     height: 100%;
     background: none;
@@ -281,4 +282,36 @@ body{
     width: 40px;
     height: 40px;
     margin-right: 10px;
+}
+.profile-card:first-child .profile-pic{
+    width: 70px;
+    height: 70px;
+}
+.profile-card .profile-pic img{
+    border: none;
+}
+
+.profile-card .username{
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+.sub-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.action-btn{
+    opacity: 1;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.suggestion-text{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    margin: 20px 0;
 }
